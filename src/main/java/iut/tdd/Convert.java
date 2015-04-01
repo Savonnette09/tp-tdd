@@ -20,7 +20,22 @@ public class Convert {
 			return "sept" ;
 		}else if (input=="8"){
 			return "huit" ;
-		}return "neuf" ;
+		}else if (input=="9"){
+			return "neuf" ;
+		}else if (input=="10"){
+			return "dix" ;
+		}else if (input=="11"){
+			return "onze" ;
+		}else if (input=="12"){
+			return "douze" ;
+		}else if (input=="13"){
+			return "treize" ;
+		}else if (input=="14"){
+			return "quatorze" ;
+		}else if (input=="15"){
+			return "quinze" ;
+		}
+		return "seize" ;
 		
 		
 	}
